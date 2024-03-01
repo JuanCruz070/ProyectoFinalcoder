@@ -1,0 +1,24 @@
+{
+  "name": "preentrega1-lemos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanCruz070/ProyectoCoder3.git"
+  },
+  "homepage": "https://github.com/JuanCruz070/ProyectoCoder3#readme",
+  "bugs": {
+    "url": "https://github.com/JuanCruz070/ProyectoCoder3/issues"
+  },
+  "dependencies": {
+    "sass": "^1.71.1"
+  }
+}
